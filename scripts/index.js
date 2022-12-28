@@ -20,3 +20,5 @@ function loadIndex(){
 }
 
 loadIndex();
+
+//export {tableBody, loadIndex};
