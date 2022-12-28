@@ -99,7 +99,44 @@
       "description": "Family saga about powerful Chilean family Trueba from 1926 till 1973.based on the novel by Isabel Allende.",
       "director": "Bille August",
       "logo": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits_(film)#/media/File:The_House_of_Spirits_Poster.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Mulholland Drive",
+      "year": "2001",
+      "duration": "146",
+      "rating": 7.9,
+      "description": "Surrealist neo-noir mystery tells the story of an aspiring actress who befriends an amnesiac woman recovering from a car accident.",
+      "director": "David Lynch",
+      "logo": "https://en.wikipedia.org/wiki/Mulholland_Drive_(film)#/media/File:Mulholland.png"
+    },
+    {
+      "id": 12,
+      "title": "Inception",
+      "year": "2010",
+      "duration": "148",
+      "rating": 7.2,
+      "description": "Sci-fi action about a professional thief who steals information by infiltrating the subconscious of his targets.",
+      "director": "Christopher Nolan",
+      "logo": "https://en.wikipedia.org/wiki/Inception#/media/File:Inception_(2010)_theatrical_poster.jpg"
+    },
+    {
+      "title": "11",
+      "year": 11,
+      "duration": 11,
+      "rating": 11,
+      "description": "11",
+      "director": "11",
+      "id": 13
+    },
+    {
+      "title": "Bullet Train",
+      "year": 2022,
+      "duration": 120,
+      "rating": 7,
+      "description": "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common.",
+      "director": "David Leitch",
+      "id": 14
     }
-      
   ]
 }
