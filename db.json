@@ -119,7 +119,24 @@
       "description": "Sci-fi action about a professional thief who steals information by infiltrating the subconscious of his targets.",
       "director": "Christopher Nolan",
       "logo": "https://en.wikipedia.org/wiki/Inception#/media/File:Inception_(2010)_theatrical_poster.jpg"
+    },
+    {
+      "title": "11",
+      "year": 11,
+      "duration": 11,
+      "rating": 11,
+      "description": "11",
+      "director": "11",
+      "id": 13
+    },
+    {
+      "title": "Bullet Train",
+      "year": 2022,
+      "duration": 120,
+      "rating": 7,
+      "description": "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common.",
+      "director": "David Leitch",
+      "id": 14
     }
-      
   ]
 }
