@@ -2,23 +2,23 @@ const titleInput = document.getElementById('titleInput');
 const yearInput = document.getElementById('yearInput');
 const durationInput = document.getElementById('durationInput');
 const ratingInput = document.getElementById('ratingInput');
-const descritionInput = document.getElementById('descriptionInput');
+const descriptionInput = document.getElementById('descriptionInput');
 const directorInput = document.getElementById('directorInput');
 const saveBtn = document.getElementById('saveBtn');
 
 const id = getQueryStringParameterByName('id');
 
 if (id) {
-    // izmena -> "dovucemo" podatke o knjizi
+    // izmena -> "dovucemo" podatke o filmu
     fetch(baseUrl + '/films/' + id)
         .then(response => response.json())
         .then(movie => {
             titleInput.value = movie.title;
-            yearInput.value = movie.year
+            yearInput.value = movie.year;
             durationInput.value = movie.duration;
             ratingInput.value = movie.rating;
-            description.value = movie.description;
-            director.value = movie.director;
+            descriptionInput.value = movie.description;
+            directorInput.value = movie.director;
         });
 }
 
@@ -64,3 +64,4 @@ saveBtn.addEventListener('click', () => {
         location.href = 'index.html';
     })
 });
+
