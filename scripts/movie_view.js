@@ -28,6 +28,6 @@ function presentMovie() {
 
 presentMovie();
 
-/* editBtn.addEventListener('click', function(this.id) {
-
-}) */
+editBtn.addEventListener('click', function() {
+	window.location.href = 'movie_add.html?id=' + movieId;
+})
