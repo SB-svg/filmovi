@@ -22,38 +22,44 @@
     <div class="container">
         <h1>Izmeni film</h1>
         <form>
-            <div class="mb-3 mt-3">
+            <div class="mb-2 mt-2">
                 <label for="title" class="form-label">Title:</label>
                 <input required type="text" class="form-control" id="titleInput" name="title">
             </div>
-            <div class="mb-3 mt-3">
+            <div class="mb-2 mt-2">
                 <label for="year" class="form-label">Year:</label>
                 <input required type="number" class="form-control" id="yearInput" name="year">
             </div>
-            <div class="mb-3 mt-3">
+            <div class="mb-2 mt-2">
                 <label for="duration" class="form-label">duration:</label>
                 <input required type="number" class="form-control" id="durationInput" name="duration">
             </div>
-            <div class="mb-3 mt-3">
+            <div class="mb-2 mt-2">
                 <label for="rating" class="form-label">Rating:</label>
                 <input required type="number" class="form-control" id="ratingInput" name="rating">
-            <div class="mb-3 mt-3">
-            <label for="description" class="form-label">Description:</label>
-            <input required type="text" class="form-control" id="descriptionInput" name="description">
-            </div>
-            <div class="mb-3 mt-3">
-                <label for="director" class="form-label">Director:</label>
-                <input required type="text" class="form-control" id="directorInput" name="director">
-            </div>
-            <div class="mb-3 mt-3">
-                <label for="logo" class="form-label">Movie image:</label>
-                <input required type="text" class="form-control" id="logoInput" name="logo">
-            </div>
+                <div class="mb-2 mt-2">
+                    <label for="description" class="form-label">Description:</label>
+                    <input required type="text" class="form-control" id="descriptionInput" name="description">
                 </div>
+                <div class="mb-2 mt-2">
+                    <label for="director" class="form-label">Director:</label>
+                    <input required type="text" class="form-control" id="directorInput" name="director">
+                </div>
+                <div class="mb-2 mt-2">
+                    <div class="row">
+                        <div class="col-11">
+                            <label for="logo" class="form-label">Movie image:</label>
+                            <input required type="text" class="form-control" id="logoInput" name="logo">
+                        </div>
+                        <div class="col-1">
+                            <img src="" id="imagePath" width="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <button type="button" id="saveBtn" class="btn btn-primary">Sačuvaj</button>
         </form>
     </div>
 </body>
 
 </html>
-

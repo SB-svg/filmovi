@@ -5,6 +5,7 @@ const movieRating = document.getElementById('ratingInput');
 const movieDescription = document.getElementById('descriptionInput');
 const movieDirector = document.getElementById('directorInput');
 const movieLogo = document.getElementById('logoInput');
+const imagePath = document.getElementById('imagePath');
 const saveBtn = document.getElementById('saveBtn');
 
 const movieId = getQueryStringParameterByName('id');
@@ -21,10 +22,15 @@ function readMovie() {
             movieDescription.setAttribute('value', movie.description)
             movieDirector.setAttribute('value', movie.director)
             movieLogo.setAttribute('value', movie.logo)
+            imagePath.setAttribute('src', movie.logo)
         });
 }
 
 readMovie();
+
+movieLogo.addEventListener('change', () => {
+    imagePath.setAttribute('src', movieLogo.value)
+})
 
 saveBtn.addEventListener('click', () => {
     // validacija
