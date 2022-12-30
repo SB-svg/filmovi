@@ -8,7 +8,7 @@
       "rating": 9.2,
       "description": "Sci-fi action drama about androids set in first half of 21. century.",
       "director": "Ridley Scott",
-      "logo": "https://en.wikipedia.org/wiki/Blade_Runner#/media/File:Blade_Runner_(1982_poster).png"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/9/9f/Blade_Runner_%281982_poster%29.png"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "rating": 8.4,
       "description": "The quasi-biographical film about American media baron Charles Foster Kane.",
       "director": "Orson Welles",
-      "logo": "https://en.wikipedia.org/wiki/Citizen_Kane#/media/File:Citizen_Kane_poster,_1941_(Style_B,_unrestored).jpg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg"
     },
     {
       "id": 3,
@@ -38,7 +38,7 @@
       "rating": 9.1,
       "description": "A village of desperate farmers hire seven rōnin to combat bandits who will return after the harvest to steal their cropstakes.",
       "director": "Akira Kurosawa",
-      "logo": "https://en.wikipedia.org/wiki/Seven_Samurai#/media/File:Seven_Samurai_poster.jpg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Seven_Samurai_poster.jpg"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "rating": 8.3,
       "description": "American must choose between his love for a woman or helping her husband, a Czech resistance leader.",
       "director": "Michael Curtiz",
-      "logo": "https://en.wikipedia.org/wiki/Casablanca_(film)#/media/File:CasablancaPoster-Gold.jpg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/CasablancaPoster-Gold.jpg"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "rating": 8.8,
       "description": "Epic sci-fi drama of sdventure and exploration of space and origin of life on our planet.",
       "director": "Stanley Kubrick",
-      "logo": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film)#/media/File:2001_A_Space_Odyssey_(1968).png"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/11/2001_A_Space_Odyssey_%281968%29.png"
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "rating": 8.6,
       "description": "A period drama focuses on a mute Scottish woman who travels to New Zealand with her young daughter after her arranged marriage to a frontiersman.",
       "director": "Jane Campion",
-      "logo": "https://en.wikipedia.org/wiki/The_Piano#/media/File:The-piano-poster.jpg"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/9/90/The-piano-poster.jpg"
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
       "rating": 6.9,
       "description": "Controversial religious satire about life of Brian Cohen, born in a stable next door to the one in which Jesus is born.",
       "director": "Terry Jones",
-      "logo": "https://en.wikipedia.org/wiki/Monty_Python%27s_Life_of_Brian#/media/File:Lifeofbrianfilmposter.jpg"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/18/Lifeofbrianfilmposter.jpg"
     },
     {
       "id": 9,
@@ -88,7 +88,7 @@
       "rating": 7.6,
       "description": "A story about a group of passengers traveling by bus to Belgrade in 1941, during the last days of the Kingdom of Yugoslavia.",
       "director": "Slobodan Šijan",
-      "logo": "https://en.wikipedia.org/wiki/Who%27s_Singin%27_Over_There%3F#/media/File:Who's_Singin'_Over_There_Poster.jpg"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/cb/Who%27s_Singin%27_Over_There_Poster.jpg"
     },
     {
       "id": 10,
@@ -98,7 +98,7 @@
       "rating": 9.8,
       "description": "Family saga about powerful Chilean family Trueba from 1926 till 1973.based on the novel by Isabel Allende.",
       "director": "Bille August",
-      "logo": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits_(film)#/media/File:The_House_of_Spirits_Poster.jpg"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/11/The_House_of_Spirits_Poster.jpg"
     },
     {
       "id": 11,
@@ -108,7 +108,7 @@
       "rating": 7.9,
       "description": "Surrealist neo-noir mystery tells the story of an aspiring actress who befriends an amnesiac woman recovering from a car accident.",
       "director": "David Lynch",
-      "logo": "https://en.wikipedia.org/wiki/Mulholland_Drive_(film)#/media/File:Mulholland.png"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0f/Mulholland.png"
     },
     {
       "id": 12,
@@ -118,7 +118,7 @@
       "rating": 7.2,
       "description": "Sci-fi action about a professional thief who steals information by infiltrating the subconscious of his targets.",
       "director": "Christopher Nolan",
-      "logo": "https://en.wikipedia.org/wiki/Inception#/media/File:Inception_(2010)_theatrical_poster.jpg"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg"
     },
     {
       "title": "Petak 13",
@@ -130,22 +130,15 @@
       "id": 13
     },
     {
+      "id": 14,
       "title": "Bullet Train",
       "year": 2022,
       "duration": 120,
       "rating": 7,
       "description": "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common.",
       "director": "David Leitch",
-      "id": 14
-    },
-    {
-      "title": "Matrix",
-      "year": 1999,
-      "duration": 120,
-      "rating": 8,
-      "description": "Sci-Fi",
-      "director": "nebitno",
-      "id": 15
+      "logo":"https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg"
+      
     }
   ]
 }
