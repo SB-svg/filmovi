@@ -10,10 +10,6 @@ function loadIndex(){
                         <td>${film.title}</td>
                         <td>${film.year}</td>
                         <td>${film.rating}</td>
-                        <td>
-                            <a href="movie_view.html?id=${film.id}"><button type="button" class="btn btn-primary">Info</button>
-                            </a>
-                        </td>
                     </tr>     
                 `;
             });
