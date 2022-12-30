@@ -121,12 +121,12 @@
       "logo": "https://en.wikipedia.org/wiki/Inception#/media/File:Inception_(2010)_theatrical_poster.jpg"
     },
     {
-      "title": "11",
-      "year": 11,
-      "duration": 11,
-      "rating": 11,
-      "description": "11",
-      "director": "11",
+      "title": "Petak 13",
+      "year": 1996,
+      "duration": 96,
+      "rating": 2,
+      "description": "Horror",
+      "director": "Michael Mayers",
       "id": 13
     },
     {
@@ -137,6 +137,15 @@
       "description": "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common.",
       "director": "David Leitch",
       "id": 14
+    },
+    {
+      "title": "Matrix",
+      "year": 1999,
+      "duration": 120,
+      "rating": 8,
+      "description": "Sci-Fi",
+      "director": "nebitno",
+      "id": 15
     }
   ]
 }

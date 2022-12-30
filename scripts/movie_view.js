@@ -7,8 +7,7 @@ const movieDescription = document.getElementById('description');
 const movieDirector = document.getElementById('director');
 const editBtn = document.getElementById('editButton');
 
-const movieId = 5;
-	//getQueryStringParameterByName('id');
+const movieId = getQueryStringParameterByName('id');
 
 function presentMovie() {
 	fetch('http://localhost:3000' + '/films/' + movieId)
@@ -29,5 +28,5 @@ function presentMovie() {
 presentMovie();
 
 editBtn.addEventListener('click', function() {
-	window.location.href = 'movie_add.html?id=' + movieId;
+	window.location.href = 'movie_edit.html?id=' + movieId;
 })

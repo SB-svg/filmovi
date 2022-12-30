@@ -7,7 +7,7 @@ function loadIndex(){
             films.forEach(film => {
             tableBody.innerHTML += `
                     <tr>
-                        <td>${film.title}</td>
+                        <td><a href="movie_view.html?id=${film.id}">${film.title}</a></td>
                         <td>${film.year}</td>
                         <td>${film.rating}</td>
                     </tr>     
