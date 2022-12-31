@@ -48,10 +48,6 @@ saveBtn.addEventListener('click', () => {
 
     let httpMethod = 'POST';
     let url = baseUrl + '/films';
-    if (id) {
-        httpMethod = 'PUT';
-        url += '/films' + id;
-    }
 
     fetch(url, {
         method: httpMethod,
@@ -64,4 +60,3 @@ saveBtn.addEventListener('click', () => {
         location.href = 'index.html';
     })
 });
-

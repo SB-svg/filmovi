@@ -5,8 +5,7 @@ const movieDuration = document.getElementById('duration');
 const movieRating = document.getElementById('rating');
 const movieDescription = document.getElementById('description');
 const movieDirector = document.getElementById('director');
-const editBtn = document.getElementById('editButton');
-const deleteBtn = document.getElementById('deleteButton');
+const confirmButton = document.getElementById('confirmButton');
 
 const movieId = getQueryStringParameterByName('id');
 
@@ -16,7 +15,6 @@ function presentMovie() {
 			return resp.json();
 		}).then(function (movie) {
 			movieImg.src = movie.logo;
-			movieImg.alt = movie.title + ' poster';
 			movieTitle.innerText = movie.title;
 			movieProdYear.innerText = movie.year;
 			movieDuration.innerText = movie.duration + ' min';
@@ -28,10 +26,18 @@ function presentMovie() {
 
 presentMovie();
 
-editBtn.addEventListener('click', function () {
-	window.location.href = 'movie_add.html?id=' + movieId;
-})
+confirmButton.addEventListener('click', function () {
 
-deleteBtn.addEventListener('click', function () {
-	window.location.href = 'movie_delete.html?id=' + movieId;
+	fetch("http://localhost:3000/films/" + movieId, {
+		method: "DELETE",
+		body: JSON.stringify({
+			id: movieId
+		}),
+		headers: {
+			'Accept': 'application/json',
+			'Content-Type': 'application/json'
+		},
+	}).then(() => {
+		location.href = 'index.html';
+	})
 })
