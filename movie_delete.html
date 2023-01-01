@@ -17,6 +17,7 @@
 		crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="css/mystyle.css">
+	<link rel="stylesheet" href="css/movie_delete.css">
 	<script src="scripts/function.js"></script>
 	<script src="scripts/movie_delete.js" defer="true"></script>
 </head>
@@ -28,7 +29,7 @@
 
 		<div class="row mt-2">
 
-			<div class="col-4 d-flex align-items-center justify-content-start">
+			<div class="col-4 d-flex align-items-center justify-content-start shakeAnimation">
 				<img class="rounded-lg" id="image" alt="Please provide valid image path">
 			</div>
 
@@ -36,32 +37,32 @@
 
 				<div class="row d-flex align-items-center mb-1 py-2 border-bottom border-info">
 					<h6 class="col-4 text-right m-0">Movie title:</h6>
-					<p class="col-8 m-0" id="title">fsnfsnjs</p>
+					<p class="col-8 m-0 shakeAnimation" id="title">fsnfsnjs</p>
 				</div>
 
 				<div class="row d-flex align-items-center mb-1 py-2 border-bottom border-info">
 					<h6 class="col-4 text-right m-0">Year of production:</h6>
-					<p class="col-8 m-0" id="year"></p>
+					<p class="col-8 m-0 shakeAnimation" id="year"></p>
 				</div>
 
 				<div class="row d-flex align-items-center mb-1 py-2 border-bottom border-info">
 					<h6 class="col-4 text-right m-0">Movie duration:</h6>
-					<p class="col-8 m-0" id="duration"></p>
+					<p class="col-8 m-0 shakeAnimation" id="duration"></p>
 				</div>
 
 				<div class="row d-flex align-items-center mb-1 py-2 border-bottom border-info">
 					<h6 class="col-4 text-right m-0">Rating:</h6>
-					<p class="col-8 m-0" id="rating"></p>
+					<p class="col-8 m-0 shakeAnimation" id="rating"></p>
 				</div>
 
 				<div class="row d-flex align-items-center mb-1 py-2 border-bottom border-info">
 					<h6 class="col-4 text-right m-0">Description:</h6>
-					<p class="col-8 m-0" id="description"></p>
+					<p class="col-8 m-0 shakeAnimation" id="description"></p>
 				</div>
 
 				<div class="row d-flex align-items-center mb-0 py-2 border-bottom border-info">
 					<h6 class="col-4 text-right m-0">Director:</h6>
-					<p class="col-8 m-0" id="director"></p>
+					<p class="col-8 m-0 shakeAnimation" id="director"></p>
 				</div>
 				<div class="row d-flex align-items-center mb-0 py-2 border-bottom border-info">
 					<label for="comment" class="form-label col-2 text-right m-0">Comment:</label>
@@ -73,7 +74,7 @@
 		<div class="row mt-5">
 			<div class="col-10 d-flex card bg-warning text-white">
 				<div class="card-body text-center ">
-					<h2> Da li ste sigurni da želite da obrište ovaj film?</h4>
+					<h2 id="question"> Da li ste sigurni da želite da obrište ovaj film?</h4>
 				</div>
 			</div>
 			<div class="col-2 d-flex align-items-center justify-content-center">
