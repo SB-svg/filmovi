@@ -29,7 +29,7 @@ function presentMovie() {
 presentMovie();
 
 editBtn.addEventListener('click', function () {
-	window.location.href = 'movie_add.html?id=' + movieId;
+	window.location.href = 'movie_edit.html?id=' + movieId;
 })
 
 deleteBtn.addEventListener('click', function () {
